@@ -1,0 +1,96 @@
+.container {
+    background-color: #fff;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.imageContainer {
+    flex: 1;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.imageContainer button {
+    align-self: flex-start;
+    background-color: #fff;
+    color: #1C337A;
+    border: none;
+    padding: 8px 16px;
+}
+
+.textContainer {
+    width: 300px;
+    margin: 20px;
+}
+
+.textContainer__title {
+    margin: 0;
+    color: #1C337A;
+}
+
+.textContainer__location {
+    color: #868686;
+    font-size: 14px;
+    margin-top: 4px;
+    margin-bottom: 12px;
+}
+
+.textContainer__details {
+    margin: 16px 0;
+}
+
+.copy h4 {
+    margin-top: 0;
+    color: #1D357C;
+}
+
+.copy p {
+    color: #434343;
+    font-size: 14px;
+    margin: 4px 0;
+}
+
+.overviewContainer {
+    padding: 8px 16px;
+}
+
+.button {
+    display: block;
+    background-color: #F9DC4B;
+    border-radius: 4px;
+    text-decoration: none;
+    text-align: center;
+    color: #1C337A;
+    font-weight: 700;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.button:hover {
+    background-color: #e4bf1e;
+}
+
+.button__price {
+    margin: 0;
+    font-size: 22px;
+}
+
+@media screen and (max-width: 880px) {
+    .wrapper {
+        flex-direction: column;
+    }
+
+    .textContainer {
+        width: unset;
+    }
+
+    .imageContainer {
+        height: 200px;
+        flex: unset;
+    }
+}

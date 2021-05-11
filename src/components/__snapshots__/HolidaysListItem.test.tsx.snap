@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`composePartyBreakdown matches snapshot 1`] = `
+Array [
+  <React.Fragment>
+    <strong>
+      2
+    </strong>
+     
+    adults
+  </React.Fragment>,
+  ", ",
+  <React.Fragment>
+    <strong>
+      1
+    </strong>
+     
+    children
+  </React.Fragment>,
+]
+`;

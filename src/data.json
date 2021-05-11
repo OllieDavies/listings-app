@@ -1,0 +1,51 @@
+[
+    {
+        "id": "00001",
+        "hotelName": "Iberostar",
+        "location": "Costa Adeje, Tenerife",
+        "price": 1136.5,
+        "overview": "Lorem ipsum delor",
+        "departureAirport": "East Midlands",
+        "departureDate": "3rd July 2019",
+        "rating": 5,
+        "duration": "7 days",
+        "imageUrl": "/demo/hotel-image-1.png",
+        "party": {
+            "adults": 2,
+            "children": 2,
+            "infants": 1
+        }
+    },
+    {
+        "id": "00002",
+        "hotelName": "Aquamarina Golf Hotel",
+        "location": "Costa Adeje, Tenerife",
+        "price": 696.8,
+        "overview": "Another description",
+        "departureAirport": "Liverpool",
+        "departureDate": "27th May 2019",
+        "rating": 4,
+        "duration": "7 days",
+        "imageUrl": "/demo/hotel-image-2.png",
+        "party": {
+            "adults": 2,
+            "children": 1
+        }
+    },
+    {
+        "id": "00003",
+        "hotelName": "Las Piramides Resort",
+        "location": "Costa Adeje, Tenerife",
+        "price": 499.99,
+        "overview": "A final description",
+        "departureAirport": "Manchester",
+        "departureDate": "3rd July 2019",
+        "rating": 3,
+        "duration": "7 days",
+        "imageUrl": "/demo/hotel-image-3.png",
+        "party": {
+            "adults": 2,
+            "children": 2
+        }
+    }
+]
